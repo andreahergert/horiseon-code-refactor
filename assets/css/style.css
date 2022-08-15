@@ -1,4 +1,4 @@
-/* Arranged selectors in universal, element, class, and ID order */
+/* Arranged selectors in universal, element, and class order */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -51,8 +51,7 @@ p {
     margin-left: 25px;
 }
 
-/* Changed class below from "hero" to "background" */
-.background {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
