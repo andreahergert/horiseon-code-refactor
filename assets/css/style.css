@@ -1,3 +1,4 @@
+/* Arranged selectors in universal, element, class, and ID order */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +7,15 @@
 
 body {
     background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 .header {
@@ -41,19 +51,12 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
+/* Changed class below from "hero" to "background" */
+.background {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* Added alt text for backgroud-image below to index.html */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -188,13 +191,16 @@ p {
     font-size: 36px;
 }
 
+/* Hid the footer per the mock up image */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    visibility: hidden;
 }
 
 .footer h2 {
     font-size: 20px;
+    visibility: hidden;
 }
