@@ -8,8 +8,7 @@ Use a web browser to access the site https://andreahergert.github.io/horiseon-co
 
 
 ## Usage
-assets/images/Screenshot.png
-
+https://github.com/andreahergert/horiseon-code-refactor/blob/main/assets/images/Screenshot.png?raw=true
 
 ## Credits
 Andrea Hergert
