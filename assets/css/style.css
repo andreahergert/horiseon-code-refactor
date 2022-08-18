@@ -197,16 +197,13 @@ header nav ul li {
     font-size: 36px;
 }
 
-/* Hid the footer per the mock up image */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    visibility: hidden;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
-    visibility: hidden;
 }
